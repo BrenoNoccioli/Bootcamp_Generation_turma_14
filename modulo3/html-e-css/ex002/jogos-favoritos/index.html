@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/rubik.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Meus Jogos Favoritos</title>
+  </head>
+  <body class="bg-light">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+        <a class="navbar-brand" href="#"><img src="img/rubik.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-dark font-weight-bold" href="#">Home <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#pokemon">Pokémon</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#magic">Magic: The Gathering</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#mario">Super Mario</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#zelda">Zelda</a>
+            </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
+      <!--/Navbar-->
+      <!--Carousel-->
+      <div class='container'>
+        <div id="carouselExampleIndicators" class="carousel slide shadow-lg" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/pokemon/pokemon-500.jpg" alt="Primeiro Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/magic/magic-carousel.jpg" alt="Segundo Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/mario/mario-carousel.jpg" alt="Terceiro Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/zelda/zelda-carousel.jpg" alt="Terceiro Slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+     
+      <!--/Carousel-->
+      
+      <!--Junbotron Pokemon-->
+      <div id="pokemon" class="jumbotron jumbotron-fluid bg-warning mt-5 rounded shadow-lg">
+        <div class="container">
+          <h1 class="display-4 text-primary font-weight-bold">Pokémon</h1>
+          <p class="lead font-weight-bold">Pokémon é uma das principais franquias de todos os tempos. Começou em 1996 como um jogo para gameboy e fez tanto sucesso que deu origem ao desenho animado e mais uma série de jogos que fazem sucesso até hoje!</p>
+        </div>
+      </div>
+      <!--/Junbotron-->
+
+      <!--Card Pokemon-->
+      <div class="card-deck">
+        <div class="card border border-warning rounded shadow-lg">
+          <img class="card-img-top" src="img/pokemon/card-pokemon-1.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Pokémon Blue para gameboy</h5>
+            <p class="card-text">Este foi o primeiro jogo da franquia a ser lançado - juntamente com Pokémon Red - e abriu o caminho para as continuações como Silver & Gold, Sun & Monn e Sword & Shield </p>
+            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          </div>
+        </div>
+        
+        <div class="card border border-warning rounded shadow-lg">
+          <img class="card-img-top" src="img/pokemon/card-pokemon-2.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Pokémon - desenho animado</h5>
+            <p class="card-text">A série de desenho animado foi lançada no Japão em abril de 1997, mas só chegou ao Brasil em 1999. A série retrata a jorada de Ash Ketchum, um garoto de 10 anos que sonha em se tornar um mestre pokémon.</p>
+            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          </div>
+        </div>
+      </div>
+      <!--/Card Pokemon-->
+      <!--Video Pokemon-->
+        <div class="row justify-content-md-center">
+          <iframe class="mt-5" width="700" height="400" src="https://www.youtube.com/embed/SSViT336Vq4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      <!--Video Pokemon-->
+
+      <!--Junbotron Magic-->
+      <div id="magic" class="jumbotron bg-dark jumbotron-fluid mt-5 text-white rounded shadow-lg">
+        <div class="container">
+          <h1 class="display-4 text-warning font-weight-bold">Magic: the Gathering</h1>
+          <p class="lead text-white font-weight-bold">Magic: the Gathering é um jogo de cartas colecionáveis criado por Richard Garfield em 1993. A premissa de jogo é a batalha ente poderosos magos, chamados de Planeswalkers, que duelam entre si invocando mágicas e crituras - representadas pelas cartas do baralho.</p>
+        </div>
+      </div>
+      <!--/Junbotron-->
+
+      <!--Card Magic-->
+      <div class="card-deck">
+        <div class="card border border-dark rounded shadow-lg">
+          <img class="card-img-top" src="img/magic/card-magic-1.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Magic Arena</h5>
+            <p class="card-text">É a versão online e gratuita do card game. Pode ser jogada em computador e, mais recentemente, também em mobile.</p>
+            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          </div>
+        </div>
+        
+        <div class="card border border-dark rounded shadow-lg">
+          <img class="card-img-top" src="img/magic/card-magic-2.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Magic: the Gathering</h5>
+            <p class="card-text">Com a chegada das plataformas digitais, o jogo físico passou a ser chamado de "table top". Atualmente conta com diferentes tipos de formato, sendo o de maior ascensão o Commander, que é um modo de jogo entre 4 ou mais participantes onde cada um possui um baralho com 100 cartas únicas, sendo uma delas seu comandante. </p>
+            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          </div>
+        </div>
+      </div>
+      <!--/Card Magic-->
+
+      <!--Video Magic-->
+        <div class="row justify-content-md-center">
+          <iframe class="mt-5" width="700" height="400" src="https://www.youtube.com/embed/GLiAQz0Cf30" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      <!--/Video Magic-->
+
+      <!--Junbotron Super Mario-->
+      <div id="mario" class="jumbotron jumbotron-fluid mt-5 bg-danger rounded shadow-lg">
+        <div class="container">
+          <h1 class="display-4 text-primary font-weight-bold">Super Mario</h1>
+          <p class="lead font-weight-bold">O game retrata a saga de Mario, um encanador baixinho e rechonchudo que vive no Reino dos Cogumelos, em suas repetidas missões de salvar a Princesa Peach do vilão Bowser.</p>
+        </div>
+      </div>
+      <!--/Junbotron-->
+
+      <!--Card Super Mario-->
+      <div class="card-deck">
+        <div class="card border border-danger rounded shadow-lg">
+          <img class="card-img-top" src="img/mario/card-mario-1.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Super Mario World - SNES</h5>
+            <p class="card-text">Lançado em 1990, é o 8 jogo da série e, sem dúvida, marcou a geração da época.</p>
+            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          </div>
+        </div>
+        
+        <div class="card border-danger rounded shadow-lg">
+          <img class="card-img-top" src="img/mario/card-mario-2.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Super Mario 64</h5>
+            <p class="card-text">Lançado em 1996, o jogo foi revolucionário para a época e continuou o sucesso da franquia.</p>
+            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          </div>
+        </div>
+      </div>
+      <!--/Card Super Mario-->
+
+      <!--Video Mario-->
+        <div class="row justify-content-md-center">
+          <iframe class="mt-5" width="700" height="400" src="https://www.youtube.com/embed/h6tFoIUyOdU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      <!--/Video Mario-->
+
+      <!--Junbotron Zelda-->
+      <div id="zelda" class="jumbotron jumbotron-fluid mt-5 bg-success rounded shadow-lg">
+        <div class="container">
+          <h1 class="display-4 text-danger font-weight-bold">The Legend of Zelda</h1>
+          <p class="lead text-white font-weight-bold">The Legend of Zelda é uma série de jogos eletrônicos da Nintendo criada em 1986 por Shigeru Miyamoto e Takashi Tezuka e retrata as aventuras do protagonista Link.</p>
+        </div>
+      </div>
+      <!--/Junbotron-->
+      <!--Card Zelda-->
+      <div class="card-deck">
+        <div class="card border-success rounded shadow-lg">
+          <img class="card-img-top" src="img/zelda/card-zelda-1.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">The Legend of Zelda: Ocarina of Time</h5>
+            <p class="card-text">Lançado em 1998, o jogo retrata a aventura de Link para salvar o reino de Hyrule e a princesa Zelda das mãos de Ganondorf.</p>
+            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          </div>
+        </div>
+        
+        <div class="card border-success rounded shadow-lg">
+          <img class="card-img-top" src="img/zelda/card-zelda-2.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">The Legend of Zelda: breath of the wild</h5>
+            <p class="card-text">Lançado em 2017, este é o 10º jogo da série e foi aclamado pela crítica pela profundida da história, atenção aos detalhes e jogabilidade.</p>
+            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          </div>
+        </div>
+      </div>
+      <!--/Card Zelda-->
+
+      <!-- Video Zelda-->
+      <div class="row justify-content-md-center">
+              <iframe class="mt-5" width="700" height="400" src="https://www.youtube.com/embed/FKE8llOGl2A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <!--/Video Zelda-->
+
+      <!--Form Comentarios-->
+      <div class="row">
+          <div class="col-md-12 mt-5">
+              <h3 class="text-center">Gosta desses jogos também? Entre em contato comigo!</h3>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Mensagem</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escreva sua mensagem..."></textarea>
+              </div>
+              <div class="form-group d-flex justify-content-end">
+                  <button type="button" class="btn btn-info">Enviar</button>
+              </div>
+            </form>
+        </div>
+      </div>
+      <!--/Form Comentarios-->
+        <hr>
+      <!--Footer-->
+      <footer>
+        <div class="row mb-3">
+            <div class="col-md-12 d-flex justify-content-center">
+                <a href="https://www.facebook.com/" target="_blank" class="p-2">
+                    <img src="img/facebook.png" alt="Logo Facebook">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank" class="p-2">
+                    <img src="img/linkedin.png" alt="Logo Linkedin">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="p-2">
+                    <img src="img/instagram.png" alt="Logo Instagram">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">Todos os direitos reservados: Breno Noccioli&copy;</p>
+            </div>
+        </div>
+        
+      </footer>
+      <!--/Footer-->
+    </div>
+
+
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

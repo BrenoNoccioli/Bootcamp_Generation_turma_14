@@ -1,0 +1,51 @@
+#img-bg{
+    background-image: url(../../assets/img/bg-cadastrar-detalhe3.png);
+
+    min-height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-right: 3px solid rgb(44, 241, 231);
+}
+
+input, select{
+    border: 1px solid;
+    border-color: lightseagreen;
+}
+
+input:hover{
+    background-color: rgb(32, 178, 170, 0.1);
+}
+
+select:hover{
+    background-color: rgb(32, 178, 170, 0.1);
+}
+
+input:focus{
+    background-color: rgb(32, 178, 170, 0.1);
+}
+
+select:focus{
+    background-color: rgb(32, 178, 170, 0.1);
+}
+
+.cancelar{
+    background-color: rgb(190, 0, 0);
+}
+
+.cadastrar{
+    background-color: lightseagreen;
+}
+
+.cancelar:hover{
+    background-color: rgb(150, 0, 0);
+    
+}
+
+.cadastrar:hover{
+    background-color: rgb(23, 131, 125);
+
+}
+

@@ -1,0 +1,30 @@
+
+
+#btn-novaPostagem{
+  background-color: rgb(255, 159, 121);
+}
+
+#btn-postagens{
+  border: 1px solid rgb(255, 159, 121);
+}
+
+#btn-novaPostagem:hover, #btn-postagens:hover{
+  background-color: rgb(255, 159, 121, 0.6);
+}
+
+#btn-cancelar{
+  background-color: rgb(190, 0, 0);
+}
+
+#btn-publicar{
+  background-color: lightseagreen;
+}
+
+#btn-cancelar:hover{
+  background-color: rgb(150, 0, 0);
+}
+
+#btn-publicar:hover{
+  background-color: rgb(23, 131, 125);
+
+}

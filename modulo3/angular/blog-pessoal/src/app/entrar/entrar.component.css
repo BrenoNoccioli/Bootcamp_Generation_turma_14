@@ -1,0 +1,22 @@
+#entrar{
+    padding: 15px 30px;
+    border: 1px solid rgb(32, 178, 170);
+    border-radius: 15px;
+    background-color: rgb(32, 178, 170, 0.1);
+}
+
+input:hover{
+    border-color: #20b2aa;
+}
+
+#img-bg{
+    background-image: url(../../assets/img/bg-entrar-estilizado-teste2.png);
+
+    min-height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-left: 3px solid rgb(44, 241, 231);
+}
